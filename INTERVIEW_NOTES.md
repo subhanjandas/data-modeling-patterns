@@ -12,3 +12,15 @@ Follow-up distinctions:
 - Authorization and posting have different grains and identities.
 
 Learner evidence: correct grain/cardinality explanations, identity examples, refund arithmetic and attribution path. The exact interview wording above is an editorial draft, not a claim the learner delivered a timed interview answer.
+
+## Approved policy versus future implementation
+
+The learner approved the refined Module 01A business contract on 2026-10-15. Useful distinctions to explain in future interviews are:
+
+- Every OPEN account must have exactly one ACTIVE PRIMARY at a completed business-state boundary; creating the two together is atomic.
+- Unique assignment identity does not also enforce active-role cardinality.
+- A historical posting can remain legitimate after an instrument becomes inactive; recording history differs from authorizing a new action.
+- A deferred check is an explicit limitation, not an endorsement of unchecked behavior.
+- A duplicate posting identifier is rejected without overwriting the original financial facts.
+
+These talking points record approved policies. Explaining and implementing their enforcement remains the next learning checkpoint, not an already-passed interview exercise.

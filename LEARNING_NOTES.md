@@ -17,4 +17,14 @@ Instructor refinements introduced during document drafting:
 - A unique participation triple does not enforce exactly one active primary participant per account.
 - Assigned-cardholder attribution identifies the instrument's assignee, not necessarily the physical actor.
 
-These refinements are documented for review. No additional learner exercise or runtime test is claimed as completed.
+The learner subsequently approved the domain review and dictionary on 2026-10-15. The approved boundaries are recorded in DECISIONS.md (M01A-D07 through M01A-D12).
+
+## Distinctions retained in the approval
+
+- Exactly one ACTIVE PRIMARY is a completed-state rule; atomic account creation must establish the initial participation together with the account.
+- Retained-triple uniqueness, one active primary per OPEN account and mutually exclusive active roles per customer/account are three distinct rules.
+- Card issuance eligibility is different from recording an already-existing source posting. Present-day inactivity must not erase history or automatically reject legitimate historical/source postings.
+- Deferred refund checks do not declare the unchecked behavior valid.
+- Immutability includes rejecting routine updates/deletes; duplicate identity must never become an accidental overwrite policy. A deliberate test reset has a different purpose.
+
+Approval is evidence of a selected business policy, not proof of PostgreSQL enforcement knowledge. No additional learner exercise or runtime test is claimed as completed.
